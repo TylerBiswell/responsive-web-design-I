@@ -222,14 +222,23 @@ h1 {
   }
 
   @media(max-width: 800px) {
+    .container {
+        width: 800px;
+        margin: auto 20px;
+    }
+
      header {
        flex-direction: column-reverse;
        align-items: center;
       }
-    .container {
-      background: green;
-    }
-    header .logo {
-        align-self: center;
+   
+      .cta img {
+        display: none;
+      }
+
+
+      .middle-img {
+        width: 100%;
+        height: auto;
       }
     }
